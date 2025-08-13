@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
       >
         <nav>Home | About | blog</nav>
         {children}
+        <footer>This is a Footer</footer>
       </body>
     </html>
   );
