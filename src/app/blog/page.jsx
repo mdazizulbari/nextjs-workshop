@@ -3,7 +3,7 @@ import BlogCard from "../components/BlogCard";
 
 export default async function BlogPage() {
   const res = await fetch("https://api.vercel.app/blog", {
-    cache: "no-store", // always fetch fresh
+    // cache: "no-store", // always fetch fresh
   });
   const posts = await res.json();
 
